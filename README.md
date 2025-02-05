@@ -23,10 +23,11 @@ To run this code, ensure that your computer has:
 [Installation Guide](https://www.anaconda.com/download)  
 
 ### **Supported Data Format**  
-This code accepts **CSV files** as input, which should be the output of **image analysis from particle tracking**. The CSV file must contain at least three columns:  
+This code accepts **CSV files** as input, which should be the output of **image analysis from particle tracking**. The CSV file must contain at least three columns with the following information:  
 - **A unique particle identifier**  
 - **X coordinate**  
 - **Y coordinate**  
 
 An optional **Z coordinate** can also be included.  
 Each row represents an entry for these variables, and the first row should contain the **column titles**.
+Excel files can be converted to CSV format.
